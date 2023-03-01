@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*html*/
+html{
+    scroll-behavior: smooth;
+}
+/*parte del body*/
+body{
+    background-color:#191919;
+}
+/*parte del header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+}
+    nav a{
+        padding: 30px;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        transition: all 500ms ease-in-out;
+    }
+    a:hover{
+        opacity: 40%;
+       transition: all 500ms ease-in-out;
+    }
+    hr{
+        margin-top: 20px;
+        margin-left: 36%;
+        margin-right: 36%;
+        text-align: center;
+        justify-content: center;
+    }
+/*scrollbar*/
+::-webkit-Scrollbar {
+    background-color: aliceblue;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #191919;
+}
+/*parte del inicio introduccion texto he imagen principal etc.. incluye tot el contenido que se encuentraaa en introduccion*/
+#introduction{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+#google{
+    margin-top: 90px;
+    width: 210px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 120px;
+    }
+    h1{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        color: aliceblue;
+        margin-left: 25px;
+    }
+    p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 19px;
+        color: aliceblue;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+.text{
+    margin-top: 55px;
+}
+/* Inicio de la parte de middle donde contiene toda la informaacion Relaacionada con el middle */
+.middle{
+    display: flexbox;
+    margin-top: 600px;
+    width: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+#proyectos{
+    padding-top: 70px;
+    color: #191919;   
+}
+    .p2{
+        margin-top: 50px;
+        color: #191919;
+        font-size: 19px;
+    }
+.img img{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#dibujo{
+    width: 635px;
+    height: 345px;
+}
+#unity{
+    width: 635px;
+    height: 345px;
+}
+.img a{
+    transition: all 500ms ease-in-out;
+}
+.img a:hover{
+    opacity: 70%;
+    transition: all 500ms ease-in-out;
+}
+/*conenido de la parte de Proyectos Futuros*/
+
+.pre-bottom{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    height: 500%;
+    padding-bottom: 10%;
+}
+#proyectos-futuros{
+    margin-top: 70px;
+}
+/*parte de el contacto*/
+
+.bottom{
+text-align: center;
+display: flexbox;
+justify-content: center;
+height: 650px;
+}
+.p3{
+margin-top: 40px;
+
+}
+.iconos{
+    width: 50px;
+    height: 10px;
+}
+/*parte del footer*/
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+}
+
+/*ADAPTACION DISPOSITVOS */ /*TELEFONES MOVILES */
+@media only screen and (max-width: 700px) {
+    .img img  {width: 80%;}
+    #unity {width: 80%;
+        height: 80%;}
+    #dibujo   {width: 80%;
+                height: 80%;}
+}
+@media only screen and (max-width: 400px) {
+    .img img  {width: 80%;}
+    #unity {width: 80%;
+        height: 80%;}
+    #dibujo   {width: 80%;
+                height: 80%;}
+}
+
+@media only screen and (max-width: 600px) {
+    nav a{
+        padding: 5px;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        transition: all 500ms ease-in-out;
+    }
+@media only screen and (max-width: 600px) {
+        nav a{
+            padding: 2px;
+            justify-content: center;
+            color: aliceblue;
+            font-family: 'Quicksand', sans-serif;
+            text-decoration: none;
+            transition: all 500ms ease-in-out;
+        }
+
+    }
+}
